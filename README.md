@@ -139,3 +139,6 @@ with [Meteor](https://www.meteor.com).
 [open_source]: https://en.wikipedia.org/wiki/Open-source_software
 [free_software]: https://en.wikipedia.org/wiki/Free_software
 [discussions]: https://github.com/wekan/wekan/discussions
+
+
+WRITABLE_PATH=.. WITH_API=true RICHER_CARD_COMMENT_EDITOR=false arch -x86_64 meteor --port 4000

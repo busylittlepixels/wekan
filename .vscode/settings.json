@@ -8,5 +8,9 @@
     "**/.DS_Store": true,
     "node_modules": true,
     ".meteor/local": true
-  }
+  },
+  "i18n-ally.localesPaths": [
+    "imports/i18n",
+    "packages/wekan-fullcalendar/fullcalendar/locale"
+  ]
 }

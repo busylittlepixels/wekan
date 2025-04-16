@@ -181,8 +181,8 @@ services:
       # If without https, can be only wekan node, no need for Caddy/Nginx/Apache if you don't need them
       #  - http://example.com
       #  - http://boards.example.com
-      #  - http://192.168.1.100    <=== using at local LAN
-      - ROOT_URL=http://localhost  #   <=== using only at same laptop/desktop where Wekan is installed
+      #  - http://192.168.178.241    <=== using at local LAN
+      - ROOT_URL=http://localhost:8081  #   <=== using only at same laptop/desktop where Wekan is installed
       #---------------------------------------------------------------
       # ==== EMAIL SETTINGS ====
       # Email settings are only at MAIL_URL and MAIL_FROM.
